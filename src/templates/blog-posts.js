@@ -9,7 +9,7 @@ export default function Template({ data }) {
 
   return (
     <Layout>
-      <SEO title="Blog-post"></SEO>
+      <SEO title="blog-posts"></SEO>
       <Link to='/blog'>Go Back</Link>
       <hr />
       <h1>{post.frontmatter.title}</h1>
